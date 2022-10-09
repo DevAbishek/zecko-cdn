@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@ampproject/toolbox-optimizer": "^2.9.0",
+    "crypto": "^1.0.1"
+  }
+}
