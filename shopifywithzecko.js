@@ -19856,5 +19856,6 @@ var ShopifyBuy = (function () {
             });
           });
         }
+        console.log("inside widget 1 ")
         ShopiifyBuyInit();
       })();
