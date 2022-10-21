@@ -19791,11 +19791,13 @@ var ShopifyBuy = (function () {
 
     (function () {
         function ShopifyBuyInit() {
+          console.log('widget 2')
           var client = ShopifyBuy.buildClient({
             domain: 'zecko-test.myshopify.com',
             storefrontAccessToken: '23e5fac62494f658149ecd5968e1f5ec',
           });
           ShopifyBuy.UI.onReady(client).then(function (ui) {
+            console.log('widget 3')
             ui.createComponent('product', {
               id: '6764732776499',
               node: document.getElementById('product-component-1665317763305'),
