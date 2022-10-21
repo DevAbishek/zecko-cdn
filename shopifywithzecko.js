@@ -19764,8 +19764,11 @@ var ShopifyBuy = (function () {
     }();
     
     fixBind();
+
+      console.log('shopify 2nd last')
     
     buybutton_umd.UI.onReady = buybutton_umd.UI.onReady || function (client) {
+      console.log('shopify last')
       return new Promise(function (resolve) {
         var tracker = new Tracker();
     
