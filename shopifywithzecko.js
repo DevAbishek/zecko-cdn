@@ -1,9 +1,10 @@
+console.log("global console")
 var ShopifyBuy = (function () {
     'use strict';
     
     var commonjsGlobal = typeof window !== 'undefined' ? window : typeof global !== 'undefined' ? global : typeof self !== 'undefined' ? self : {};
     
-    
+    console.log("shopify-buy 1")
     
     
     
